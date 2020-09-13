@@ -1,1 +1,1 @@
-web: gunicorn konexbvc.wsgi --log-file -
+web: gunicorn konexbvc.konexbvc.wsgi --log-file -
