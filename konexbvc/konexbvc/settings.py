@@ -78,11 +78,11 @@ WSGI_APPLICATION = 'konexbvc.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': os.environ.get('DB_USER', 'myapp'),
+        'NAME': os.environ.get('DB_NAME', 'myapp'),
         'USER': os.environ.get('DB_USER','myapp'),
-        'PASSWORD': os.environ.get('DB_USER','dbpass'),
-        'HOST': os.environ.get('DB_USER', 'localhost'),
-        'PORT': os.environ.get('DB_USER', '15432'),
+        'PASSWORD': os.environ.get('DB_PASSWORD','dbpass'),
+        'HOST': os.environ.get('DB_HOST', 'localhost'),
+        'PORT': os.environ.get('DB_PORT', '15432'),
     }
 }
 
