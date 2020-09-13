@@ -30,7 +30,7 @@ SECRET_KEY = '0e2+k63ep0+cd^)36_=)=x&s&5sx90(o+(1ogxg!=hyh0s@%$v'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['konexbvc.herokuapp.com']
 
 
 # Application definition
