@@ -54,7 +54,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'konexbvc1.urls'
+ROOT_URLCONF = 'konexbvc.urls'
 
 TEMPLATES = [
     {
@@ -72,7 +72,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'konexbvc1.wsgi.application'
+WSGI_APPLICATION = 'konexbvc.wsgi.application'
 
 
 # Database
